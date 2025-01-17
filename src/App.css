@@ -1,0 +1,87 @@
+.App {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+ul p {
+  min-height: 2em;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  color: rgb(65, 94, 7);
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  gap: 1em;
+}
+
+.colored {
+  background-color: rgb(220, 218, 218);
+}
+li span {
+  flex: 5;
+}
+li span:hover {
+  cursor: default;
+}
+
+li input {
+  flex: 1;
+}
+li input:hover {
+  cursor: pointer;
+}
+
+li button {
+  background-color: lightcoral;
+  padding: 5px;
+  border-radius: 3px;
+  flex: 3;
+  min-height: 30px;
+}
+
+li button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+form input {
+  flex: 3;
+  min-height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form button {
+  flex: 1;
+  min-height: 30px;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form button:hover {
+  background-color: rgb(114, 206, 236);
+  cursor: pointer;
+}
